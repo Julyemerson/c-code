@@ -252,8 +252,6 @@ void queryItem() {
     }
 
     printf("Codigo: %s Nome: %s Categoria: %s Quantidade: %s\n", Items[itemIndex].cod, Items[itemIndex].name, Items[itemIndex].category, Items[itemIndex].quantity);  // Exibe as informações do item consultado
-
-    queryItem();  // Chama recursivamente a função para permitir a consulta de mais itens
 }
 
 FILE *openFile(char *mode) {
